@@ -1,0 +1,41 @@
+.navbar{
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    width:100%;
+    
+}
+
+.logo{
+    font-size: 1.5rem;
+
+    font-weight: bold;
+    
+}
+
+ul{
+    display: flex!important;
+    justify-content: space-between!important;
+    align-items: center!important;
+    list-style: none;
+    margin: 0 !important;
+    padding-left: 90px !important;
+}
+
+li{
+    margin: 0 1rem;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.socials-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 10rem;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
